@@ -1,0 +1,39 @@
+.footer {
+    background-color: #614BC3;
+    color: rgb(245, 245, 245);
+    font-family: 'Nunito', sans-serif;
+    padding: 2.5rem 0;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.socialMedia {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.socialMedia a {
+    color: rgb(245, 245, 245);
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.socialMedia a:hover {
+    color: #ffffff;
+}
+
+.contactInfo p {
+    margin: 5px 0;
+}
+
+.copyRight {
+    text-align: center;
+}

@@ -1,0 +1,23 @@
+.container {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-family: "Righteous", sans-serif;
+    font-size: 3rem;
+    line-height: 0;
+    color: #614BC3;
+    text-shadow: 1px 1px 2px #999;
+}
+
+.slogan {
+    font-family: "Sacramento", cursive;
+    font-size: 2rem;
+    line-height: 0.4;
+    margin-left: 6rem;
+    color: #222
+}

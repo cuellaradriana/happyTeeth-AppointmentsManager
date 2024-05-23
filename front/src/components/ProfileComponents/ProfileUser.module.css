@@ -1,0 +1,79 @@
+.main {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    height: 45vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 1rem;
+    background-color: rgba(29, 199, 120, 0.3);
+    padding: 2rem;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    background-image: url('../../assets/smile.svg');
+    background-repeat: none;
+    background-size: cover;
+}
+
+.title {
+    font-family: "Righteous", sans-serif;
+    font-size: 3rem;
+    line-height: 0;
+    color: #614BC3;
+    text-shadow: 1px 1px 2px #999;
+}
+
+.name,
+.text {
+    font-style: italic;
+    font-size: 1;
+
+}
+
+.span {
+    color: #614BC3;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.slogan {
+    font-family: "Sacramento", cursive;
+    font-size: 2rem;
+    line-height: 0.2;
+    margin-left: 6.1rem;
+    color: #222
+}
+
+.btn {
+    margin: 1rem;
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    border: 1px solid #614BC3;
+    background-color: transparent;
+    color: #614BC3;
+    padding: .5rem;
+    border-radius: .5rem;
+    font-family: inherit;
+    cursor: pointer;
+    transition: 1s;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #614BC3;
+    color: azure;
+    box-shadow: 1px 1px 2px #666;
+}

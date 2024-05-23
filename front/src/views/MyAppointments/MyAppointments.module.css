@@ -1,0 +1,44 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10%;
+}
+
+
+.title {
+    font-family: "Nunito", sans-serif;
+    font-weight: 900;
+    font-size: 2.3rem;
+    color: #371d61;
+    letter-spacing: 5px;
+    padding: 1rem 3rem;
+}
+
+.text {
+    padding: 10%;
+}
+
+.btn,
+.activeBtn {
+    margin: 1rem;
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    border: 1px solid #614BC3;
+    background-color: transparent;
+    color: #614BC3;
+    padding: .5rem;
+    border-radius: .5rem;
+    font-family: inherit;
+    cursor: pointer;
+    transition: 1s;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #614BC3;
+    color: azure;
+    box-shadow: 1px 1px 2px #666;
+}

@@ -1,0 +1,26 @@
+.container {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+.btnLogin {
+    background-color: transparent;
+    border: 1px solid #614BC3;
+    color: #614BC3;
+    border-radius: .5rem;
+    padding: .5rem;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    transition: 1s;
+    text-decoration: none;
+}
+
+.btnLogin:hover {
+    background-color: #614BC3;
+    border: 1px solid #614BC3;
+    color: azure;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, .5);
+}

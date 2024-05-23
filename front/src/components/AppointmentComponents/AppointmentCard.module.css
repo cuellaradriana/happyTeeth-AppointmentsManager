@@ -1,0 +1,61 @@
+.container {
+    width: 100%;
+    background-color: rgba(123, 201, 255, .3);
+    border-radius: 1rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: .5rem 0;
+}
+
+.title {
+    text-transform: capitalize;
+    color: #371d61;
+    width: 30%;
+    text-align: center;
+}
+
+.date,
+.time {
+    font-weight: 300;
+    width: 15%;
+}
+
+.active,
+.cancelled {
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    color: #614BC3;
+    width: 20%;
+}
+
+.cancelled {
+    color: gray;
+}
+
+.btn {
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    border: 1px solid #614BC3;
+    background-color: transparent;
+    color: #614BC3;
+    padding: .5rem;
+    border-radius: .5rem;
+    font-family: inherit;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.btn:hover {
+    background-color: #614BC3;
+    color: azure;
+    box-shadow: 1px 1px 2px #666;
+}
+
+.btn:disabled {
+    border: 1px solid gray;
+    background-color: gray;
+    cursor: auto;
+    color: azure;
+}

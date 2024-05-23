@@ -1,0 +1,34 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0.5rem auto;
+    padding-bottom: .5rem;
+    border-bottom: 1px solid #33BBC5;
+}
+
+.imgContainer {
+    width: 30%;
+}
+
+.image {
+    width: 300px;
+    border-radius: 1rem;
+}
+
+.textContainer {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.title {
+    font-size: 1.5rem;
+    color: #614BC3;
+    text-shadow: 1px 1px 2px #888;
+}
+
+.description {
+    font-style: italic;
+}
